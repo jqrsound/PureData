@@ -1,0 +1,16 @@
+{
+    "display" : "ReverbIR",
+    "parameters" :  [
+        ["int","select_ir","Select IR",0,4,0],
+        ["float","balance","Dry/Wet",0,1,0.5],
+        ["float","volume","Volume",0,100,80],
+                     
+        ["float","lpf","Low Pass Filter",0,10,10],
+        ["float","hpf","High Pass Filter",0,10,1]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["select_ir","balance","volume"]],
+        ["pg_filter","Filter",["lpf","hpf"]]
+    ]
+}
+

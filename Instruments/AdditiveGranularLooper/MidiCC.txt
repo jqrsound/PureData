@@ -1,0 +1,66 @@
+Additive Granular Looper v0.7 - Midi CC
+Alessandro Ielo - jqrsound.com
+
+
+.OSCILLATORS
+cc 1 Transpose
+cc 2 Timbre Max/Plus
+cc 3 Osc LFO Color Mod 
+cc 4 Osc LFO Rate 
+cc 5 Osc LFO Amount
+
+
+.ADSR
+cc 6 Attack 
+cc 7 Decay 
+cc 8 Sustain 
+cc 9 Release
+
+cc 10 Volume
+
+
+.GRANULAR
+cc 11 Pitch
+cc 12 Timbre
+cc 13 Sample Start
+cc 14 Balance Dry/Wet
+
+
+.EQUALIZER
+cc 15 Low
+cc 16 Low Mid
+cc 17 Mid
+cc 18 High Mid
+cc 19 High
+
+
+.FILTER
+cc 20 Cutoff
+cc 21 Osc LFO On
+cc 22 Osc LFO Rate
+cc 23 Osc LFO Amount
+
+
+.LOOPER
+cc 24 Pitch
+cc 25 Timbre
+cc 26 Sample Position
+cc 27 Dry/Wet
+cc 28 Record
+
+
+.DELAY
+cc 29 Time
+cc 30 Delay LFO On
+cc 31 Delay LFO Rate
+cc 32 Delay LFO Amount
+cc 33 Volume
+
+
+.REVERB
+cc 34 Rev LPF
+cc 35 Rev HPF
+cc 36 Volume
+
+
+

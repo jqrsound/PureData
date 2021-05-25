@@ -1,0 +1,25 @@
+{
+    "display" : "OscillatorMax",
+    "parameters" :  [
+        ["int","o_transpose","Transpose",0,127,63],
+        ["float","o_lfo_color","LFO Color",0,127,80],
+        ["float","o_lfo_rate","LFO Rate",0,127,20],
+        ["float","o_lfo_amt","LFO Amount",0,127,64],
+                     
+        ["float","o_attack","Attack",0,127,5],
+        ["float","o_decay","Decay",0,127,0],
+        ["float","o_sustain","Sustain",0,127,127],
+        ["float","o_release","Release",0,127,40],
+                     
+        ["float","ftr_cutoff","Cutoff",0,127,127],
+        ["int","ftr_lfo_wave","Wave Selector",0,1,0],
+        ["float","ftr_lfo_rate","Filter LFO Rate",0,127,0],
+        ["float","ftr_lfo_amt","Filter LFO Amount",0,127,0]
+    ],
+    "pages" : [ 
+        ["pg_main","Main",["o_transpose","o_lfo_color","o_lfo_rate","o_lfo_amt"]],
+        ["pg_adsr","ADSR",["o_attack","o_decay","o_sustain","o_release"]],
+        ["pg_filter","Filter",["ftr_cutoff","ftr_lfo_wave","ftr_lfo_rate","ftr_lfo_amt"]]
+    ]
+}
+
